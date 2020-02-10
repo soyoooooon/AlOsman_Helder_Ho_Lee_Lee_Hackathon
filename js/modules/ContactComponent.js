@@ -9,7 +9,7 @@ export default {
    
     data: function() {
         return {
-            message: "Welcome to my Super Awesome Soyoon's App!"
+            message: "Welcome to my Super Duper Awesome Soyoon's App!"
         }
     }
    

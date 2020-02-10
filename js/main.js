@@ -1,5 +1,5 @@
 import MainComponent from "./modules/MainComponent.js";
-import ContactComponent from "./modules/MainComponent.js";
+import ContactComponent from "./modules/ContactComponent.js";
 import ErrorComponent from "./modules/ErrorComponent.js"
 
 const routes = [
