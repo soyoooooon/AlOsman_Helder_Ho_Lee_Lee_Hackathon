@@ -20,9 +20,17 @@ function register($useremail, $password, $fname, $lname, $country){
         
         return 'Email in use';
     } else {
-        $newuser = 'UPDATE tbl_users SET latest_update =:l_update WHERE user_id = :id';
+        $newuser = 'INSERT INTO `tbl_users` (user_fname, user_lname, user_password, user_email, user_country) VALUES (:firstname, :lastname, :pass, :useremail, :country)';
             $user_build = $pdo->prepare($newuser);
-            $user_build->execute()
+            $user_build->execute(
+                array(
+                    ':firstname' =>$fname,
+                    ':lastname'=>$lname,
+                    ':pass'=>$password,
+                    ':useremail'=>$useremail,
+                    ':country'=>$country
+                )
+            );
     }
 
 }
