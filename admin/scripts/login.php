@@ -36,14 +36,16 @@ function login($useremail, $password, $l_update){
         }
 
         if(isset($id)){
-            redirect_to('../index.html');
-
+            
             $to = $useremail;
             $subject = "Ontario Summer";
             $content = "We're glad to see you back!";
             $headers = "From: Ontario-summer@on.ca";
 
             mail($to,$subject,$content,$headers);
+            
+            redirect_to('../index.html');
+
             
         }else{
             return 'Wrong pass';
