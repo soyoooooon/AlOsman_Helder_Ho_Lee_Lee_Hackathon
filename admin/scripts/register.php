@@ -16,17 +16,17 @@ function register($useremail, $password, $firstname, $lastname, $country){
         return 'Email already in use';
 
     } else {
-        $newuser = "INSERT INTO `tbl_users`(user_fname, user_lname, user_password, user_email, user_country) VALUES(:firstname, :lastname, :pass, :useremail, :country)";
-            $user_build = $pdo->prepare($newuser);
-            $user_build->execute(
-                array (
-                    ':firstname'=>$firstname,
-                    ':lastname'=>$lastname,
-                    ':pass'=>$password,
-                    ':useremail'=>$useremail,
-                    ':country'=>$country,
-                )
-            );
+        $data = [
+            'firstname' => $firstname,
+            'lastname' => $lastname,
+            'pass' => $password,
+            'useremail' => $useremail,
+            'country' => $country
+        ];
+
+        $newuser = 'INSERT INTO tbl_users (userid, user_fname, user_lname, user_password, user_email, user_country, latest_update, sub_date) VALUES (DEFAULT,"'. $firstname.'","'.$lastname.'","'.$password.'","'.$useremail.'","'.$country.'", 76543, DEFAULT)';
+        $user_build = $pdo->prepare($newuser);
+        $user_build->execute($data);
         
             $to = $useremail;
             $subject = "Ontario Summer";
@@ -34,9 +34,11 @@ function register($useremail, $password, $firstname, $lastname, $country){
             $headers = "From: Ontario-summer@on.ca";
 
             mail($to,$subject,$content,$headers);
+
+            redirect_to('index.html');
     
-        } 
+        }
+        
+        
 
 }
-
-// 'INSERT INTO tbl_users(user_fname, user_lname, user_password, user_email, user_country) VALUES($firstname, $lastname, $password, $useremail, $country)';
