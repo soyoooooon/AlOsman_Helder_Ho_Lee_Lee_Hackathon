@@ -12,18 +12,19 @@
 </head>
 <body>
  <main id="app">
+     <div id=cont>
      <header>
         <router-link to="/"><img src="images/logo.svg"></router-link>
      </header>
     <nav id="nav">
     <ul>
-    <li>Play</li>
-    <li>Eat</li>
-    <li>Explore</li>
-    <li>Map</li>
-    <li>Contact</li>
+    <li><a href="#">PLAY</a>
+    <li><a href="#">EAT</a></li>
+    <li><a href="#">EXPLORE</a></li>
+    <li><a href="#">MAP</a></li>
+    <li><a href="#signUp">CONTACT</a></li>
     </ul> 
-    </nav>
+    </nav></div>
     <section id="Main-img">
         <span>FIND<br>YOURSELF<br>AT<br>HOME.</span>
     </section>
@@ -34,7 +35,7 @@
         <section id="video">
         <button>Video</button>
         <video class="Video" src="images/ontarioTurism.mp4" controls poster="images/video.jpg"></video>
-    </section>
+        </section>
     <section id="play">
         <h1>PLAY</h1>
         <p>From outdoor activities to indoor fun, Ontario just has so much to offer.</p>
@@ -62,7 +63,7 @@
         </div>
     </section>
 <!-- play section-->
-        <button>MORE TO PLAY</button>
+<button>MORE TO PLAY</button>
    <!-- section eat-->
     <section id="eat">
         <h1>EAT</h1>
@@ -119,14 +120,13 @@
             <p>SEE THE PARLIAMENT <br>HILLS IN OTTAWA</p>
         </div>
     </section>
-
         <button>MORE TO EXPLORE</button>
-    
-
     <section id="signUp">
+        <div class=sign-cont>
         <h1>PLANNING A TRIP TO ONTARIO EH?</h1>
         <p>Subscribe to our newsletter to get sweet deals,<br>travelling tips and more!</p>
-        <router-link to="/contact" class="button">Sign Me Up</router-link>
+        <router-link to="/contact" class="button">Sign Me Up</router-link></div>
+        <div class="whyimg"></div>
     </section>
 
    <!-- <router-link to="/">Go to Main</router-link> -->
@@ -135,30 +135,7 @@
     
         <router-view></router-view>
 
-        <footer id="main_Footer">
-            <div class="footer-left">
-                <h1>FOLLOW US</h1>
-                <ul>
-                    <a href="">
-                        <li>Terms of Service</li>
-                    </a>
-                    <a href="">
-                        <li>Privacy</li>
-                    </a>
-                </ul>
-            </div>
-                <ul>
-                    <a href="#">
-                        <li class="fab fa-facebook-square"></i></li>
-                    </a>
-                    <a href="#">
-                        <li class="fab fa-instagram"></i></li>
-                    </a>
-                    <a href="#">
-                        <li class="fab fa-twitter-square"></i></li>
-                    </a>
-                </ul>
-        </footer>
+        
 
 
     </main>

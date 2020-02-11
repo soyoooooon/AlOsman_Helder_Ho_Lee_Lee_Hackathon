@@ -17,7 +17,14 @@
 (max-width : 479px) {
 body{margin: 0 auto;
 overflow-x:hidden;}
-
+button{
+    font-family: $b-font;
+    font-size: 1em;
+    border: none;
+    color: grey;
+    margin-left: 5vw;
+    margin-bottom: 15vh;
+}
 
 #Main-img{
     background-image: url("../images/banner.jpg");
@@ -52,7 +59,7 @@ padding-left: 3vw;
 }
 
 p{
-font-size: 14px;
+font-size: 1em;
 padding-left: 3vw;
 padding-right: 3vw;
 padding-top: 4vh;
@@ -72,7 +79,7 @@ width: 100vw;
 
 video{
     width:100vw;
-    display: none;
+    
 }
 
 }
@@ -92,7 +99,7 @@ font-family: $h-font;
 p{
 color: white;
 font-family: $b-font;
-font-size: 14px;
+font-size: 1em;
 padding: 15px;
 line-height: 20px;
 }
@@ -210,7 +217,7 @@ p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
     p{
     color: white;
     font-family: $b-font;
-    font-size: 14px;
+    font-size: 1em;
     padding: 15px;
     line-height: 20px;
     }
@@ -327,7 +334,7 @@ p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
             p{
             color: white;
             font-family: $b-font;
-            font-size: 14px;
+            font-size: 1em;
             padding: 15px;
             line-height: 20px;
             }
@@ -440,13 +447,13 @@ p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
                     h1{color: white;
                         font-size: 3.2rem;
                         padding: 20px;
-                        margin-left: 20px;
+                        margin-left: 15px;
                         font-family: $h-font;
                         margin-bottom: 20px;}
                         
                       p{color: white;
                         font-family: $b-font;
-                        font-size: 14px;
+                        font-size: 1.1em;
                         padding-left:40px;
                         line-height: 20px;
                         margin-bottom: 50px;}
@@ -460,10 +467,985 @@ p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
                             background-color: $main;
                             color: white;
                             font-family: $b-font;
-                            font-size: 20px;
+                            font-size: 18px;
                             margin-top: 3vh;
                             margin-bottom:5vh;
+                            padding-top: 10px;
+                            padding: 0 25vw;
+                            
+                            padding-bottom: 10px; 
+                            text-decoration: none;
+                            text-transform: uppercase;
                         }
 
+                        .whyimg{display:none}
                    }
+}
+//tablet
+@media only screen and 
+(min-width : 480px) and (max-width : 768px)  {
+    body{margin: 0 auto;
+        overflow-x:hidden;}
+        
+        button{
+            font-family: $b-font;
+            font-size: 1em;
+            border: none;
+            color: grey;
+            margin-left: 3vw;
+            margin-bottom: 10vh;
+        }
+        
+        #Main-img{
+            background-image: url("../images/banner.jpg");
+            background-position: center;
+            background-size: cover;
+            width: 100vw;
+            height: 70vh;
+        
+            span{
+                font-family:$h-font;
+                font-size: 4.2rem;
+                position: relative;
+                top: 70px;
+                left: 10px;
+        
+            }
+        }
+        
+        //about section
+        
+        #about{
+            width: 100vw;
+            height: 30vh;
+        
+        h1{
+        color: $main;
+        font-family: $h-font;
+        font-size: 3rem;
+        padding-top: 7vh;
+        padding-left: 3vw;
+        
+        }
+        
+        p{
+        font-size: 17px;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 4vh;
+        font-family:$b-font;
+        line-height: 20px;
+        }
+        
+            }
+        
+///video
+
+//video
+#video{
+    width: 100vw;
+     button{
+        margin-bottom: 3vh;
+     }
+    
+    video{
+        width:100vw;
+        border:none;
+    }
+    
+    }
+
+//playy.
+
+#play{
+    width: 100vw;
+    height: 30vh;
+    background-color: $main;
+    
+    h1{
+    color: white;
+    font-size: 4.5rem;
+    padding: 20px;
+    font-family: $h-font;
+    }
+    
+    p{
+    color: white;
+    font-family: $b-font;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 22px;
+    }
+    //haha
+
+    //...
+    //..ㄲ
+    }
+    #play-section1{
+        width: 50vw;
+        height: 40vh;
+        margin-top:10vh;
+        display: flex;
+        flex-direction: row;
+       
+        
+        
+        #elora{
+        width: 30vw;
+        height: 40vh;
+            .elora-img{
+            background-image: url("../images/zipline.jpg");
+            background-position: center;
+            background-size: cover;
+            width:  20vw;
+            margin-left:2vw;
+            height: 15vh;
+            border-radius: 5px;
+            }
+        
+            h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+            p{padding-left:2vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+        
+        }
+        
+        #algoma{
+        width: 30vw;
+        height: 40vh;
+        
+        .algoma-img{
+        background-image: url("../images/camping.jpg");
+        background-position: center;
+        background-size: cover;
+        width:  20vw;
+        margin-left:1vw;
+        height: 15vh;
+        border-radius: 5px;
+        }
+        
+        h2{padding-left:1vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+        p{padding-left:1vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+        
+        }
+        }
+        
+        #play-section2{
+            width: 50vw;
+            height: 40vh;
+            margin-top: -40vh;
+            display: flex;
+            flex-direction: row;
+            float:right;
+            
+            #vaughan{
+            width: 30vw;
+            height: 40vh;
+                .vaughan-img{
+                background-image: url("../images/wonderland.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  20vw;
+                margin-left:2vw;
+                height: 15vh;
+                border-radius: 5px;
+                }
+            
+                h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+                p{padding-left:2vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+            
+            }
+            
+            #toronto{
+            width: 30vw;
+            height: 40vh;
+            
+            .toronto-img{
+            background-image: url("../images/edgewalk.jpg");
+            background-position: center;
+            background-size: cover;
+            width:  20vw;
+            margin-left:1vw;
+            height: 15vh;
+            border-radius: 5px;
+            }
+            
+            h2{padding-left:1vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+             p{padding-left:1vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+            }
+            }
+    //heyhey
+
+
+    //eat banner lll
+
+    #eat{
+        width: 100vw;
+        height: 30vh;
+        background-color: $blue;
+        
+        h1{
+        color: white;
+        font-size: 4.5rem;
+        padding: 20px;
+        font-family: $h-font;
+        }
+        
+        p{
+        color: white;
+        font-family: $b-font;
+        font-size: 20px;
+        padding: 15px;
+        line-height: 20px;
+        }
+        
+        }
+
+        #eat-section1{
+            width: 50vw;
+            height: 40vh;
+            margin-top:10vh;
+            display: flex;
+            flex-direction: row;
+            
+            
+            
+            #to1{
+            width: 40vw;
+            height: 30vh;
+                .to1-img{
+                background-image: url("../images/oshawa.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  20vw;
+                margin-left:2vw;
+                height: 15vh;
+                border-radius: 5px;
+                }
+            
+                h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+                p{padding-left:2vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+            
+            }
+            
+            #to2{
+            width: 40vw;
+            height: 30vh;
+            
+            .to2-img{
+            background-image: url("../images/beavertail.jpg");
+            background-position: center;
+            background-size: cover;
+            width:  20vw;
+            margin-left:1.5vw;
+            height: 15vh;
+            border-radius: 5px;
+            }
+            
+            h2{padding-left:1.5vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+            p{padding-left:1.5vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+            
+            }
+            }
+            
+            #eat-section2{
+                width: 50vw;
+                height: 40vh;
+                display: flex;
+                flex-direction: row;
+                float:right;
+                margin-top: -40vh;
+                
+                
+                
+                #to3{
+                width: 40vw;
+                height: 30vh;
+                    .to3-img{
+                    background-image: url("../images/peameal.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    width:  20vw;
+                    margin-left:4vw;
+                    height: 15vh;
+                    border-radius: 5px;
+                    }
+                
+                    h2{padding-left:4vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+                    p{padding-left:4vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+                
+                }
+                
+                #everywhere{
+                width: 40vw;
+                height: 30vh;
+                
+                .every-img{
+                background-image: url("../images/poutine.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  20vw;
+                margin-left:3vw;
+                height: 15vh;
+                border-radius: 5px;
+                }
+                
+                h2{padding-left:3vw;  padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+                p{padding-left:3vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+                
+                }
+            }
+
+        ///blablablabla eat sections
+            //explore...
+
+        #explore{
+            width: 100vw;
+            height: 30vh;
+            background-color: $pink;
+            
+            h1{
+            color: white;
+            font-size: 4.5rem;
+            padding: 20px;
+            font-family: $h-font;
+            }
+            
+            p{
+            color: white;
+            font-family: $b-font;
+            font-size: 20px;
+            padding: 15px;
+            line-height: 20px;
+            }
+            
+            
+        }
+
+
+        #exp-section1{
+            width: 50vw;
+            height: 40vh;
+            margin-top:10vh;
+            display: flex;
+            flex-direction: row;
+            
+            
+            
+            #ottawa{
+            width: 40vw;
+            height: 30vh;
+                .ottawa-img{
+                background-image: url("../images/rideau.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  20vw;
+                margin-left:2vw;
+                height: 15vh;
+                border-radius: 5px;
+                }
+            
+                h2{padding-left:3vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+                p{padding-left:3vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+            
+            }
+            
+            #ex-toronto{
+            width: 40vw;
+            height: 30vh;
+            
+            .ex-toronto-img{
+            background-image: url("../images/casaloma.jpg");
+            background-position: center;
+            background-size: cover;
+            width:  20vw;
+            margin-left:1vw;
+            height: 15vh;
+            border-radius: 5px;
+            }
+            
+            h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+            p{padding-left:2vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+            
+            }
+            }
+            
+            #exp-section2{
+                width: 50vw;
+                height: 40vh;
+                display: flex;
+                flex-direction: row;
+                float:right;
+                margin-top: -40vh;
+                
+                #niagara{
+                width: 40vw;
+                height: 30vh;
+                    .niagara-img{
+                    background-image: url("../images/niagara.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    width:  20vw;
+                    margin-left:4vw;
+                    height: 15vh;
+                    border-radius: 5px;
+                    }
+                
+                    h2{padding-left:5vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+                    p{padding-left:5vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+                
+                }
+                
+                #ottawa2{
+                width: 40vw;
+                height: 30vh;
+                
+                .ottawa-img2{
+                background-image: url("../images/parliament.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  20vw;
+                margin-left:3vw;
+                height: 15vh;
+                border-radius: 5px;
+                }
+                
+                h2{padding-left:4vw;  padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 11px; line-height: 15px; }
+                p{padding-left:4vw; font-family: $b-font; font-size: 12px; line-height: 15px;}
+                
+                }
+                }
+                #signUp{
+                    background-color: $blue;
+                    width: 100vw;
+                    height: 50vh;
+                    display:flex;
+                    flex-direction: row;
+                   
+                    .sign-cont{
+                        width: 50vw;
+                    h1{color: white;
+                        font-size: 2.5rem;
+                        padding: 20px;
+                        margin-top: 25px;
+                        margin-left: 10px;
+                        font-family: $h-font;
+                        margin-bottom: 10px;}
+                        
+                      p{color: white;
+                        font-family: $b-font;
+                        font-size: 1em;
+                        padding-left:25px;
+                        line-height: 20px;
+                        margin-bottom: 50px;}
+
+                        a{
+                        
+                                width: 70vw;
+                                height: 40px;
+                                margin-left: 25px;
+                                border-radius: 20px;
+                                border:none;
+                                background-color: $main;
+                                color: white;
+                                font-family: $b-font;
+                                font-size: 18px;
+                                margin-top: 3vh;
+                                margin-bottom:5vh;
+                                padding-top: 10px;
+                                padding: 0 10vw;
+                                padding-bottom: 10px; 
+                                text-decoration: none;
+                                text-transform: uppercase;
+                            
+                        }}
+
+                .whyimg{
+                 background-image: url("../images/travel.jpg");
+                 background-position: center;
+                 background-size: cover;
+                 width: 50vw;
+                 height: 50vh;
+                }
+
+                   }
+
+}
+
+//deskkkkkk
+
+@media only screen and 
+(min-width : 769px)  {
+    body{margin: 0 auto;
+        overflow-x:hidden;}
+        
+        button{
+            font-family: $b-font;
+            font-size: 1em;
+            border: none;
+            color: grey;
+            margin-left: 3vw;
+            margin-bottom: 5vh;
+        }
+        
+        #Main-img{
+            background-image: url("../images/banner.jpg");
+            background-position: center;
+            background-size: cover;
+            width: 100vw;
+            height: 115vh;
+        
+            span{
+                font-family:$h-font;
+                font-size: 5rem;
+                position: relative;
+                top: 90px;
+                line-height: 110px;
+                left: 10px;
+        
+            }
+        }
+
+        #about{
+            width: 100vw;
+            height: 50vh;
+        
+        h1{
+        color: $main;
+        font-family: $h-font;
+        font-size: 4rem;
+        padding-top: 7vh;
+        padding-left: 3vw;
+        
+        }
+        
+        p{
+        font-size: 30px;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 4vh;
+        font-family:$b-font;
+        line-height: 42px;
+        }
+        
+            }
+        
+
+
+//video
+#video{
+    width: 100vw;
+     button{
+        margin-bottom: 3vh;
+     }
+    
+    video{
+        width:100vw;
+        border:none;
+    }
+    
+    }
+    #play{
+        width: 100vw;
+        height: 50vh;
+        background-color: $main;
+        
+        h1{
+        color: white;
+        font-size: 5rem;
+        padding: 20px;
+        font-family: $h-font;
+        }
+        
+        p{
+        color: white;
+        font-family: $b-font;
+        font-size: 2.5em;
+        padding: 15px;
+        line-height: 50px;
+        }
+        //haha
+    
+        //...
+        //..ㄲ
+        }
+        #play-section1{
+            width: 50vw;
+            height: 50vh;
+            margin-top:10vh;
+            display: flex;
+            flex-direction: row;
+           
+            
+            
+            #elora{
+            width: 30vw;
+            height: 50vh;
+                .elora-img{
+                background-image: url("../images/zipline.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  20vw;
+                margin-left:2vw;
+                height: 25vh;
+                border-radius: 5px;
+                }
+            
+                h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                p{padding-left:2vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+            
+            }
+            
+            #algoma{
+            width: 30vw;
+            height: 50vh;
+            
+            .algoma-img{
+            background-image: url("../images/camping.jpg");
+            background-position: center;
+            background-size: cover;
+            width:  20vw;
+            margin-left:1vw;
+            height: 25vh;
+            border-radius: 5px;
+            }
+            
+            h2{padding-left:1vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+            p{padding-left:1vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+            
+            }
+            }
+            
+            #play-section2{
+                width: 50vw;
+                height: 50vh;
+                margin-top: -50vh;
+                display: flex;
+                flex-direction: row;
+                float:right;
+                
+                #vaughan{
+                width: 30vw;
+                height: 50vh;
+                    .vaughan-img{
+                    background-image: url("../images/wonderland.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    width:  20vw;
+                    margin-left:1vw;
+                    height: 25vh;
+                    border-radius: 5px;
+                    }
+                
+                    h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                    p{padding-left:2vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+                
+                }
+                
+                #toronto{
+                width: 30vw;
+                height: 50vh;
+                
+                .toronto-img{
+                background-image: url("../images/edgewalk.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  20vw;
+                margin-left:1vw;
+                height: 25vh;
+                border-radius: 5px;
+                }
+                
+                h2{padding-left:1vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                 p{padding-left:1vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+                }
+                }
+             ////eat   
+
+                #eat{
+                    width: 100vw;
+                    height: 50vh;
+                    background-color: $blue;
+                    
+                    h1{
+                        color: white;
+                        font-size: 5rem;
+                        padding: 20px;
+                        font-family: $h-font;
+                        }
+                        
+                        p{
+                        color: white;
+                        font-family: $b-font;
+                        font-size: 2.5em;
+                        padding: 15px;
+                        line-height: 50px;
+                        }
+                    
+                    }
+            
+            #eat-section1{
+            width: 50vw;
+            height: 50vh;
+            margin-top:10vh;
+            display: flex;
+            flex-direction: row;
+           
+            
+            
+            #to1{
+            width: 30vw;
+            height: 50vh;
+                .to1-img{
+                background-image: url("../images/oshawa.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  20vw;
+                margin-left:2vw;
+                height: 25vh;
+                border-radius: 5px;
+                }
+            
+                h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                p{padding-left:2vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+            
+            }
+            
+            #to2{
+            width: 30vw;
+            height: 50vh;
+            
+            .to2-img{
+            background-image: url("../images/beavertail.jpg");
+            background-position: center;
+            background-size: cover;
+            width:  20vw;
+            margin-left:1vw;
+            height: 25vh;
+            border-radius: 5px;
+            }
+            
+            h2{padding-left:1vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+            p{padding-left:1vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+            
+            }
+            }
+            
+            #eat-section2{
+                width: 50vw;
+                height: 50vh;
+                margin-top: -50vh;
+                display: flex;
+                flex-direction: row;
+                float:right;
+                
+                #to3{
+                width: 30vw;
+                height: 50vh;
+                    .to3-img{
+                    background-image: url("../images/peameal.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    width:  20vw;
+                    margin-left:1vw;
+                    height: 25vh;
+                    border-radius: 5px;
+                    }
+                
+                    h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                    p{padding-left:2vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+                
+                }
+                
+                #everywhere{
+                width: 30vw;
+                height: 50vh;
+                
+                    
+                    .every-img{
+                    background-image: url("../images/poutine.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    width:  20vw;
+                    margin-left:1vw;
+                    height: 25vh;
+                    border-radius: 5px;
+                    }
+                
+                h2{padding-left:1vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                 p{padding-left:1vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+                }
+                }
+
+              //exp          
+                #explore{
+                    width: 100vw;
+                    height: 40vh;
+                    background-color: $pink;
+                    
+                    h1{
+                    color: white;
+                    font-size: 5rem;
+                    padding: 20px;
+                    font-family: $h-font;
+                    }
+                    
+                    p{
+                    color: white;
+                    font-family: $b-font;
+                    font-size: 2em;
+                    padding: 15px;
+                    line-height: 30px;
+                    }
+                    
+                    
+                }
+        
+        
+                #exp-section1{
+                    width: 50vw;
+                    height: 50vh;
+                    margin-top:10vh;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    
+                    
+                    #ottawa{
+                    width: 40vw;
+                    height: 40vh;
+                        .ottawa-img{
+                        background-image: url("../images/rideau.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        width:  20vw;
+                        margin-left:2vw;
+                        height: 25vh;
+                        border-radius: 5px;
+                        }
+                    
+                        h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                        p{padding-left:2vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+                    
+                    }
+                    
+                    #ex-toronto{
+                    width: 40vw;
+                    height: 30vh;
+                    
+                    .ex-toronto-img{
+                    background-image: url("../images/casaloma.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    width:  20vw;
+                    margin-left:1vw;
+                    height: 25vh;
+                    border-radius: 5px;
+                    }
+                    
+                    h2{padding-left:1vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                    p{padding-left:1vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+                    
+                    }
+                    }
+                    
+                    #exp-section2{
+                        width: 50vw;
+                        height: 50vh;
+                        display: flex;
+                        flex-direction: row;
+                        float:right;
+                        margin-top: -50vh;
+                        
+                        #niagara{
+                        width: 40vw;
+                        height: 40vh;
+                            .niagara-img{
+                            background-image: url("../images/niagara.jpg");
+                            background-position: center;
+                            background-size: cover;
+                            width:  20vw;
+                            margin-left:2vw;
+                            height: 25vh;
+                            border-radius: 5px;
+                            }
+                        
+                            h2{padding-left:2vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                            p{padding-left:2vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+                        
+                        }
+                        
+                        #ottawa2{
+                        width: 40vw;
+                        height: 40vh;
+                        
+                        .ottawa-img2{
+                        background-image: url("../images/parliament.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        width:  20vw;
+                        margin-left:3vw;
+                        height: 25vh;
+                        border-radius: 5px;
+                        }
+                        
+                        h2{padding-left:3vw;  padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 1em; line-height: 15px; }
+                        p{padding-left:3vw; font-family: $b-font; font-size: 1.5em; line-height: 30px;}
+                        
+                        }
+                    }
+
+                    #signUp{
+                        background-color: $blue;
+                        width: 100vw;
+                        height: 50vh;
+                        display:flex;
+                        flex-direction: row;
+                       
+                        .sign-cont{
+                            width: 60vw;
+                        h1{color: white;
+                            font-size: 3rem;
+                            padding: 20px;
+                            margin-top: 25px;
+                            margin-left: 10px;
+                            font-family: $h-font;
+                            margin-bottom: 10px;}
+                            
+                          p{color: white;
+                            font-family: $b-font;
+                            font-size: 2em;
+                            padding-left:25px;
+                            line-height: 40px;
+                            margin-bottom: 50px;}
+    
+                            a{
+                                width: 70vw;
+                                height: 40px;
+                                margin-left: 25px;
+                                border-radius: 20px;
+                                border:none;
+                                background-color: $main;
+                                color: white;
+                                font-family: $b-font;
+                                font-size: 20px;
+                                margin-top: 3vh;
+                                margin-bottom:5vh;
+                                padding-top: 15px;
+                                padding: 0 10vw;
+                                padding-bottom: 15px; 
+                                text-decoration: none;
+                                text-transform: uppercase;
+                            }}
+    
+                    .whyimg{
+                     background-image: url("../images/travel.jpg");
+                     background-position: center;
+                     background-size: cover;
+                     width: 40vw;
+                     height: 50vh;
+                    }
+    
+                       }
+
+
+
 }
