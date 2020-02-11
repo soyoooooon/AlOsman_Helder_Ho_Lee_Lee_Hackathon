@@ -1,6 +1,7 @@
 export default {
     
-    template: `<h1>{{ message }}</h1>`,
+    template: `
+    <h1>{{ message }}</h1>`,
    
     created: function() {
         console.log('our  main component rendered');
@@ -12,6 +13,8 @@ export default {
             message: "Welcome to my Super Awesome Soyoon's App!"
         }
     }
+
+
    
    
    };
