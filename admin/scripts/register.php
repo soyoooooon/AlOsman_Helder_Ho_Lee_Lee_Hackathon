@@ -24,7 +24,7 @@ function register($useremail, $password, $firstname, $lastname, $country){
             'country' => $country
         ];
 
-        $newuser = 'INSERT INTO tbl_users (userid, user_fname, user_lname, user_password, user_email, user_country, latest_update, sub_date) VALUES (DEFAULT,"'. $firstname.'","'.$lastname.'","'.$password.'","'.$useremail.'","'.$country.'", 76543, DEFAULT)';
+        $newuser = 'INSERT INTO tbl_users (userid, user_fname, user_lname, user_password, user_email, user_country, latest_update, sub_date) VALUES (DEFAULT,"'. $firstname.'","'.$lastname.'","'.$password.'","'.$useremail.'","'.$country.'", CURRENT_TIMESTAMP, DEFAULT)';
         $user_build = $pdo->prepare($newuser);
         $user_build->execute($data);
         
