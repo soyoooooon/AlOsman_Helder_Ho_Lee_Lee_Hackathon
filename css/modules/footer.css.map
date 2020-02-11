@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,yCACoB,CAChB,MAAM,CACF,UAAU,CAAE,IAAI",
-"sources": ["../../sass/modules/footer.scss"],
+"mappings": "AAEA,yCACoB,CACjB,YAAY,CACP,UAAU,CAAE,IAAI,CAChB,OAAO,CAAC,IAAI,CACZ,cAAc,CAAE,GAAG,CACnB,eAAE,CACF,WAAW,CCJX,mBAAoB,CDKpB,KAAK,CCVN,OAAO,CDcF,kBAAE,CAAC,eAAe,CAAE,YAAY",
+"sources": ["../../sass/modules/footer.scss","../../sass/_vars.scss"],
 "names": [],
 "file": "footer.css"
 }
