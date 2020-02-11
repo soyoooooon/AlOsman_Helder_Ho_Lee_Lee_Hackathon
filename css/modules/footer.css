@@ -1,2 +1,2 @@
-@media only screen and (max-width: 479px){footer{margin-top:20vh}}
+@media only screen and (max-width: 479px){#main_Footer{margin-top:20vh;display:flex;flex-direction:row}#main_Footer h1{font-family:"Oswald",sans-serif;color:#FEB500}#main_Footer ul li{justify-content:space-evenly}}
 /*# sourceMappingURL=footer.css.map */
