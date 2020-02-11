@@ -25,7 +25,7 @@ function login($useremail, $password, $l_update){
 
         while($founduser = $user_match->fetch(PDO::FETCH_ASSOC)){
             $id = $founduser['userid'];
-            $update = 'UPDATE tbl_users SET latest_update =:l_update WHERE user_id = :id';
+            $update = 'UPDATE tbl_users SET latest_update =:l_update WHERE userid = :id';
             $user_update = $pdo->prepare($update);
             $user_update->execute(
                 array(
