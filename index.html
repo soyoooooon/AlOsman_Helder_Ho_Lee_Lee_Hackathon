@@ -39,77 +39,124 @@
         <h1>PLAY</h1>
         <p>From outdoor activities to indoor fun, Ontario just has so much to offer.</p>
     </section>
-    <section id="playFirst">
-        <div class="elora">
-            <img src="images/zipline.jpg">
+    <section id="play-section1">
+        <div id="elora">
+            <div class="elora-img"></div>
             <h2>ELORA</h2>
             <p>GO ZIPLINING ACROSS A MASSIVE GORGE.</p></div>
-        <div class="algoma">
-            <img src="images/camping.jpg">
+        <div id="algoma">
+            <div class="algoma-img"></div>
             <h2>ALGOMA</h2>
-            <p>GO CAMPING AT LAKE SUPERIOR PROVINCIAL PARK.</p></div>
+            <p>GO CAMPING AT LAKE SUPERIOR PROVINCIAL<br>PARK.</p></div>
     </section>
-    <!-- <section class="play-section2">
-        <div class="vaughan">
-            <img src="images/wonderland.jpg">
+    <section id="play-section2">
+        <div id="vaughan">
+            <div class="vaughan-img"></div>
             <h2>VAUGHAN</h2>
-            <p>SPEND YOUR DAY AT CANADA'S WONDERLAND</p>
+            <p>SPEND YOUR DAY AT<br>CANADA'S WONDERLAND</p>
         </div>
-        <div class="toronto">
-            <img src="images/edgewalk.jpg">
+        <div id="toronto">
+            <div class="toronto-img"></div>
             <h2>TORONTO</h2>
-            <p>TRY THE THRILLING EDGEWALK AT THE CN TOWER.</p>
+            <p>TRY THE THRILLING <br>EDGEWALK AT<br> THE CN TOWER.</p>
         </div>
-    </section> -->
+    </section>
 <!-- play section-->
         <button>MORE TO PLAY</button>
-    </section>
+   <!-- section eat-->
     <section id="eat">
         <h1>EAT</h1>
         <p>Treat yourself to amazing dishes from all around the world here in Ontario.</p>
-        
-        <button>MORE TO EAT</button>
     </section>
+    <section id="eat-section1">
+        <div id="to1">
+            <div class="to1-img"></div>
+            <h2>TORONTO</h2>
+            <p>TRY OUT THIS CHIEF WIGGUM-INSPIRED DESSERT.</p></div>
+        <div id="to2">
+            <div class="to2-img"></div>
+            <h2>TORONTO</h2>
+            <p>YOU'RE GOING TO LOVE THESE SWEET TREATS.</p></div>
+    </section>
+    <section id="eat-section2">
+        <div id="to3">
+            <div class="to3-img"></div>
+            <h2>TORONTO</h2>
+            <p>SIMPLE BUT DELICIOUS PEAMEAL BACON.</p>
+        </div>
+        <div id="everywhere">
+            <div class="every-img"></div>
+            <h2>EVERYWHERE</h2>
+            <p>YOU MUST TRY THIS <br>ICONIC CANADIAN FOOD.</p>
+        </div>
+    </section>
+
+        <button>MORE TO EAT</button>
+    
     <section id="explore">
         <h1>EXPLORE</h1>
         <p>Discover new places and learn new things.</p>
+    </section>
+    <section id="exp-section1">
+        <div id="ottawa">
+            <div class="ottawa-img"></div>
+            <h2>OTTAWA</h2>
+            <p>THE FAMOUS RIDEAU CANALS</p></div>
+        <div id="ex-toronto">
+            <div class="ex-toronto-img"></div>
+            <h2>TORONTO</h2>
+            <p>VISIT THE MAJESTIC <br>CASA LOMA CASTLE.</p></div>
+    </section>
+    <section id="exp-section2">
+        <div id="niagara">
+            <div class="niagara-img"></div>
+            <h2>NIAGARA FALLS</h2>
+            <p>SEE THE AMAZING FALLS <br>IN PERSON</p>
+        </div>
+        <div id="ottawa2">
+            <div class="ottawa-img2"></div>
+            <h2>OTTAWA</h2>
+            <p>SEE THE PARLIAMENT <br>HILLS IN OTTAWA</p>
+        </div>
+    </section>
 
         <button>MORE TO EXPLORE</button>
-    </section>
+    
 
     <section id="signUp">
         <h1>PLANNING A TRIP TO ONTARIO EH?</h1>
-        <p>Subscribe to our newsletter to get sweet deals, travelling tips and more!</p>
-        <button>SIGN ME UP</button>
+        <p>Subscribe to our newsletter to get sweet deals,<br>travelling tips and more!</p>
+        <router-link to="/contact" class="button">Sign Me Up</router-link>
     </section>
 
-    <footer id="main_Footer">
-        <h1>FOLLOW US</h1>
-            <ul>
-                <a href="#">
-                    <li>Facebook</li>
-                </a>
-                <a href="#">
-                    <li>Instagram</li>
-                </a>
-                <a href="#">
-                    <li>Twitter</li>
-                </a>
-            </ul>
-            <ul>
-                <a href="">
-                    <li>Terms of Service</li>
-                </a>
-                <a href="">
-                    <li>Privacy</li>
-                </a>
-            </ul>
-    </footer>
    <!-- <router-link to="/">Go to Main</router-link> -->
-    <router-link to="/contact">Contact</router-link>
+    <!-- <router-link to="/contact">Contact</router-link> -->
     
     
         <router-view></router-view>
+
+        <footer id="main_Footer">
+            <h1>FOLLOW US</h1>
+                <ul>
+                    <a href="#">
+                        <li class="fab fa-twitter-square">Facebook</i></li>
+                    </a>
+                    <a href="#">
+                        <li>Instagram</li>
+                    </a>
+                    <a href="#">
+                        <li>Twitter</li>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="">
+                        <li>Terms of Service</li>
+                    </a>
+                    <a href="">
+                        <li>Privacy</li>
+                    </a>
+                </ul>
+        </footer>
 
 
     </main>

@@ -1,5 +1,6 @@
 @import '_vars';
 @import 'modules/nav';
+@import 'modules/footer';
 
 @font-face {
     font-family: 'Roboto' sans-serif;
@@ -99,28 +100,366 @@ line-height: 20px;
 
 //play section
 
-#playFirst{
-
+#play-section1{
 width: 100vw;
-height: 120vh;
+height: 35vh;
+margin-top:10vh;
 display: flex;
 flex-direction: row;
 
 
-.elora,.algoma{
+
+#elora{
 width: 50vw;
-height: 60vh;
-img{
-width: 100vw;
-height: 40vh;
-border-radius: 3px;
+height: 50vh;
+    .elora-img{
+    background-image: url("../images/zipline.jpg");
+    background-position: center;
+    background-size: cover;
+    width:  40vw;
+    margin-left:4vw;
+    height: 20vh;
+    border-radius: 5px;
+    }
+
+    h2{padding-left:5vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+    p{padding-left:5vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+
 }
 
-h2{font-family: $b-font; font-size: 10px;}
-p{font-family: $b-font; font-size: 13px;}
+#algoma{
+width: 50vw;
+height: 50vh;
+
+.algoma-img{
+background-image: url("../images/camping.jpg");
+background-position: center;
+background-size: cover;
+width:  40vw;
+margin-left:3vw;
+height: 20vh;
+border-radius: 5px;
+}
+
+h2{padding-left:4vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
 
 }
 }
 
+#play-section2{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    #vaughan{
+    width: 50vw;
+    height: 50vh;
+        .vaughan-img{
+        background-image: url("../images/wonderland.jpg");
+        background-position: center;
+        background-size: cover;
+        width:  40vw;
+        margin-left:4vw;
+        height: 20vh;
+        border-radius: 5px;
+        }
+    
+        h2{padding-left:5vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+        p{padding-left:5vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+    
+    }
+    
+    #toronto{
+    width: 50vw;
+    height: 50vh;
+    
+    .toronto-img{
+    background-image: url("../images/edgewalk.jpg");
+    background-position: center;
+    background-size: cover;
+    width:  40vw;
+    margin-left:3vw;
+    height: 20vh;
+    border-radius: 5px;
+    }
+    
+    h2{padding-left:4vw;  padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+    p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+    
+    }
+    }
+//eat
 
+#eat{
+    width: 100vw;
+    height: 30vh;
+    background-color: $blue;
+    
+    h1{
+    color: white;
+    font-size: 4rem;
+    padding: 20px;
+    font-family: $h-font;
+    }
+    
+    p{
+    color: white;
+    font-family: $b-font;
+    font-size: 14px;
+    padding: 15px;
+    line-height: 20px;
+    }
+    
+    }
+//eat sections...
+#eat-section1{
+    width: 100vw;
+    height: 35vh;
+    margin-top:10vh;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    #to1{
+    width: 50vw;
+    height: 50vh;
+        .to1-img{
+        background-image: url("../images/oshawa.jpg");
+        background-position: center;
+        background-size: cover;
+        width:  40vw;
+        margin-left:4vw;
+        height: 20vh;
+        border-radius: 5px;
+        }
+    
+        h2{padding-left:5vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+        p{padding-left:5vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+    
+    }
+    
+    #to2{
+    width: 50vw;
+    height: 50vh;
+    
+    .to2-img{
+    background-image: url("../images/beavertail.jpg");
+    background-position: center;
+    background-size: cover;
+    width:  40vw;
+    margin-left:3vw;
+    height: 20vh;
+    border-radius: 5px;
+    }
+    
+    h2{padding-left:4vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+    p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+    
+    }
+    }
+    
+    #eat-section2{
+        width: 100vw;
+        height: 35vh;
+        display: flex;
+        flex-direction: row;
+        
+        
+        
+        #to3{
+        width: 50vw;
+        height: 50vh;
+            .to3-img{
+            background-image: url("../images/peameal.jpg");
+            background-position: center;
+            background-size: cover;
+            width:  40vw;
+            margin-left:4vw;
+            height: 20vh;
+            border-radius: 5px;
+            }
+        
+            h2{padding-left:5vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+            p{padding-left:5vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+        
+        }
+        
+        #everywhere{
+        width: 50vw;
+        height: 50vh;
+        
+        .every-img{
+        background-image: url("../images/poutine.jpg");
+        background-position: center;
+        background-size: cover;
+        width:  40vw;
+        margin-left:3vw;
+        height: 20vh;
+        border-radius: 5px;
+        }
+        
+        h2{padding-left:4vw;  padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+        p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+        
+        }
+        }
+
+        //explore...
+
+        #explore{
+            width: 100vw;
+            height: 30vh;
+            background-color: $pink;
+            
+            h1{
+            color: white;
+            font-size: 4rem;
+            padding: 20px;
+            font-family: $h-font;
+            }
+            
+            p{
+            color: white;
+            font-family: $b-font;
+            font-size: 14px;
+            padding: 15px;
+            line-height: 20px;
+            }
+            
+            
+        }
+
+        //explore sections
+
+
+        #exp-section1{
+            width: 100vw;
+            height: 35vh;
+            margin-top:10vh;
+            display: flex;
+            flex-direction: row;
+            
+            
+            
+            #ottawa{
+            width: 50vw;
+            height: 50vh;
+                .ottawa-img{
+                background-image: url("../images/rideau.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  40vw;
+                margin-left:4vw;
+                height: 20vh;
+                border-radius: 5px;
+                }
+            
+                h2{padding-left:5vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+                p{padding-left:5vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+            
+            }
+            
+            #ex-toronto{
+            width: 50vw;
+            height: 50vh;
+            
+            .ex-toronto-img{
+            background-image: url("../images/casaloma.jpg");
+            background-position: center;
+            background-size: cover;
+            width:  40vw;
+            margin-left:3vw;
+            height: 20vh;
+            border-radius: 5px;
+            }
+            
+            h2{padding-left:4vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+            p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+            
+            }
+            }
+            
+            #exp-section2{
+                width: 100vw;
+                height: 35vh;
+                display: flex;
+                flex-direction: row;
+                
+                #niagara{
+                width: 50vw;
+                height: 50vh;
+                    .niagara-img{
+                    background-image: url("../images/niagara.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    width:  40vw;
+                    margin-left:4vw;
+                    height: 20vh;
+                    border-radius: 5px;
+                    }
+                
+                    h2{padding-left:5vw; padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+                    p{padding-left:5vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+                
+                }
+                
+                #ottawa2{
+                width: 50vw;
+                height: 50vh;
+                
+                .ottawa-img2{
+                background-image: url("../images/parliament.jpg");
+                background-position: center;
+                background-size: cover;
+                width:  40vw;
+                margin-left:3vw;
+                height: 20vh;
+                border-radius: 5px;
+                }
+                
+                h2{padding-left:4vw;  padding-top: 1vh; padding-bottom: 1vh; font-family: $b-font; font-size: 13px; line-height: 15px; }
+                p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
+                
+                }
+                }
+
+                //sign up
+
+                #signUp{
+                    background-color: $blue;
+                    width: 100vw;
+                   
+
+                    h1{color: white;
+                        font-size: 3.2rem;
+                        padding: 20px;
+                        margin-left: 20px;
+                        font-family: $h-font;}
+                        
+                      p{color: white;
+                        font-family: $b-font;
+                        font-size: 14px;
+                        padding-left:40px;
+                        line-height: 20px;}
+
+                        a{
+                            width: 70vw;
+                            height: 40px;
+                            margin-left: 40px;
+                            border-radius: 20px;
+                            border:none;
+                            background-color: $main;
+                            color: white;
+                            font-family: $b-font;
+                            font-size: 20px;
+                            margin-top: 3vh;
+                            margin-bottom:5vh;
+                        }
+
+                   }
 }
