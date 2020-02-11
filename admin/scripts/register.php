@@ -35,7 +35,7 @@ function register($useremail, $password, $firstname, $lastname, $country){
 
             mail($to,$subject,$content,$headers);
 
-            redirect_to('index.html');
+            redirect_to('../index.html');
     
         }
         

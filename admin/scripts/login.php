@@ -36,7 +36,7 @@ function login($useremail, $password, $l_update){
         }
 
         if(isset($id)){
-            redirect_to('index.html');
+            redirect_to('../index.html');
 
             $to = $useremail;
             $subject = "Ontario Summer";
