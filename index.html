@@ -5,12 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Find Yourself At Home : Ontario Summer</title>
 </head>
 <body>
  <main id="app">
+     <header>
+        <router-link to="/"><img src="images/logo.svg"></router-link>
+     </header>
+    <nav id="nav">
+    <ul>
+    <li>Play</li>
+    <li>Eat</li>
+    <li>Explore</li>
+    <li>Map</li>
+    <li>Contact</li>
+    </ul> 
+    </nav>
+    <section id="Main-img">
+        <span>FIND<br>YOURSELF<br>AT<br>HOME.</span>
+    </section>
+    <section id="about">
+        <h1>ONTARIO SUMMER</h1>
+        <p class="example">Summertime in Ontario is always fun. There is so much to see and do in all the cities across Ontario. Are you ready to have the time of your life?</p>
+        </section>
+        <section id="video">
+        <button>Video</button>
+        <video class="Video" src="images/ontarioTurism.mp4" controls poster="images/video.jpg"></video>
+    </section>
+    <section id="play">
+        <h1>PLAY</h1>
+        <p>From outdoor activities to indoor fun, Ontario just has so much to offer.</p>
+    </section>
+    <section id="playFirst">
+        <div class="elora">
+            <img src="images/zipline.jpg">
+            <h2>ELORA</h2>
+            <p>GO ZIPLINING ACROSS A MASSIVE GORGE.</p></div>
+        <div class="algoma">
+            <img src="images/camping.jpg">
+            <h2>ALGOMA</h2>
+            <p>GO CAMPING AT LAKE SUPERIOR PROVINCIAL PARK.</p></div>
+    </section>
+    <!-- <section class="play-section2">
+        <div class="vaughan">
+            <img src="images/wonderland.jpg">
+            <h2>VAUGHAN</h2>
+            <p>SPEND YOUR DAY AT CANADA'S WONDERLAND</p>
+        </div>
+        <div class="toronto">
+            <img src="images/edgewalk.jpg">
+            <h2>TORONTO</h2>
+            <p>TRY THE THRILLING EDGEWALK AT THE CN TOWER.</p>
+        </div>
+    </section> -->
+<!-- play section-->
+        <button>MORE TO PLAY</button>
+    </section>
+    <section id="eat">
+        <h1>EAT</h1>
+        <p>Treat yourself to amazing dishes from all around the world here in Ontario.</p>
+        
+        <button>MORE TO EAT</button>
+    </section>
+    <section id="explore">
+        <h1>EXPLORE</h1>
+        <p>Discover new places and learn new things.</p>
 
-    <router-link to="/">Go to Main</router-link>
+        <button>MORE TO EXPLORE</button>
+    </section>
+
+    <section id="signUp">
+        <h1>PLANNING A TRIP TO ONTARIO EH?</h1>
+        <p>Subscribe to our newsletter to get sweet deals, travelling tips and more!</p>
+        <button>SIGN ME UP</button>
+    </section>
+
+    <footer id="main_Footer">
+        <h1>FOLLOW US</h1>
+            <ul>
+                <a href="#">
+                    <li>Facebook</li>
+                </a>
+                <a href="#">
+                    <li>Instagram</li>
+                </a>
+                <a href="#">
+                    <li>Twitter</li>
+                </a>
+            </ul>
+            <ul>
+                <a href="">
+                    <li>Terms of Service</li>
+                </a>
+                <a href="">
+                    <li>Privacy</li>
+                </a>
+            </ul>
+    </footer>
+   <!-- <router-link to="/">Go to Main</router-link> -->
     <router-link to="/contact">Contact</router-link>
     
     
