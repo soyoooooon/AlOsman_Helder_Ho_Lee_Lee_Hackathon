@@ -1,6 +1,7 @@
 @import '_vars';
 @import 'modules/nav';
 @import 'modules/footer';
+@import 'modules/form';
 
 @font-face {
     font-family: 'Roboto' sans-serif;
@@ -433,19 +434,22 @@ p{padding-left:4vw; font-family: $b-font; font-size: 14px; line-height: 15px;}
                 #signUp{
                     background-color: $blue;
                     width: 100vw;
+                    height: 50vh;
                    
 
                     h1{color: white;
                         font-size: 3.2rem;
                         padding: 20px;
                         margin-left: 20px;
-                        font-family: $h-font;}
+                        font-family: $h-font;
+                        margin-bottom: 20px;}
                         
                       p{color: white;
                         font-family: $b-font;
                         font-size: 14px;
                         padding-left:40px;
-                        line-height: 20px;}
+                        line-height: 20px;
+                        margin-bottom: 50px;}
 
                         a{
                             width: 70vw;
