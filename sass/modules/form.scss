@@ -1,0 +1,46 @@
+@import '_vars';
+
+@media only screen and 
+(max-width : 479px) {
+#form{
+    h1{font-family: $h-font;
+        color: white;
+        font-size: 2em; 
+        margin: 5%}
+    width: 100vw;
+    height: 100vh;
+   padding-top: 20vh;
+ background-image: url("../images/suscribe.jpg");
+ background-position: right;
+    background-size: cover;
+
+ .my-form{
+     width: 70vw;
+     height: 450px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     background-color: $blue;
+
+     input,select{
+         width: 60vw;
+         height: 5vh;
+         margin:5%;
+         font-family: $b-font;
+     }
+
+     .submit{
+         background-color: $main;
+         width: 50vw;
+         height: 5vh;
+         color: white;
+         font-size: 20px;
+         border:none;
+         margin-left:10vw;
+         border-radius: 15px;
+         font-family: $b-font;
+     }
+ }
+
+}
+}
